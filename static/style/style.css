@@ -53,7 +53,7 @@ body {
 .button-box a {
   font-size: 25px;
   color: #ffffff;
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 
 .button-box svg {
@@ -424,10 +424,10 @@ hr {
   }
 
   .card {
-    width: 80%;
+    width: 90%;
     height: auto;
     left: 50%;
-    top: 45%;
+    top: 42%
   }
 
   .title-box {
@@ -442,8 +442,17 @@ hr {
     font-size: 16px;
   }
 
+  .city-menu {
+    left: 112%;
+    top: -1em;
+  }
+
+  .site-menu {
+    left: 3%;
+  }
+
   .menu-open {
-    width: 210px;
+    width: 274px;
   }
 
   .quality {
@@ -462,5 +471,20 @@ hr {
   .botton {
     bottom: 20px;
     left: 20px;
+  }
+
+  .up {
+    padding: 5px;
+  }
+
+  .FS3 {
+    font-size: 2rem;
+  }
+
+  .quality .info:nth-child(2),
+  .quality .info:nth-child(3),
+  .quality .info:nth-child(4),
+  .quality .info:nth-child(5) {
+    display: none;
   }
 }
